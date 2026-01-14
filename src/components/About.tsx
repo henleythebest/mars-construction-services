@@ -4,12 +4,12 @@ import { CheckCircle, Users, Calendar, Award } from "lucide-react";
 const stats = [
   {
     icon: Users,
-    number: "500+",
+    number: "10+",
     label: "Projects Completed"
   },
   {
     icon: Calendar,
-    number: "15+",
+    number: "6+",
     label: "Years Experience"
   },
   {
@@ -32,16 +32,16 @@ export const About = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
           <div>
             <Badge variant="secondary" className="mb-4 bg-primary/10 text-primary border-primary/20">
-              Why Choose Mars Construction
+              Why Choose Ernel's Construction Services
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-              Building Excellence Since 2009
+              Building Excellence Since 2019
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Mars Construction Services has been transforming the landscape with innovative 
+              Ernel's Construction Services has been transforming the landscape with innovative 
               construction solutions. Our commitment to quality, safety, and customer satisfaction 
               has made us the trusted choice for construction projects across the region.
             </p>

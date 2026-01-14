@@ -1,26 +1,46 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Building, Home, Wrench, Truck } from "lucide-react";
+import { Building, Home, Wrench, Truck, Ruler, Sofa, Layout, Plug, Paintbrush, Columns2 } from "lucide-react";
 
 const services = [
   {
     icon: Building,
-    title: "Commercial Construction",
-    description: "Large-scale commercial projects including office buildings, retail spaces, and industrial facilities."
+    title: "Structural Works",
+    description: "Construction and reinforcement of structural elements such as foundations, columns, beams, and slabs to ensure safety, strength, and durability."
   },
   {
-    icon: Home,
-    title: "Residential Construction",
-    description: "Custom homes, renovations, and residential additions with attention to every detail."
+    icon: Ruler,
+    title: "Architectural Works",
+    description: "Design and execution of architectural features including layouts, facades, partitions, and finishes that combine functionality with aesthetics."
   },
   {
     icon: Wrench,
-    title: "Renovation & Remodeling",
-    description: "Transform your existing space with our comprehensive renovation and remodeling services."
+    title: "Home Repairs",
+    description: "General repair and maintenance services addressing wear and damage to keep homes safe, functional, and well-maintained."
   },
   {
-    icon: Truck,
-    title: "Infrastructure Projects",
-    description: "Roads, bridges, and infrastructure development projects built to last generations."
+    icon: Sofa,
+    title: "Interior Renovation",
+    description: "Complete interior upgrades and remodeling to enhance comfort, style, and space efficiency for residential and commercial properties."
+  },
+  {
+    icon: Layout,
+    title: "Interior Fit-Outs",
+    description: "End-to-end fit-out solutions including partitions, ceilings, flooring, and fixtures tailored to office, retail, and commercial spaces."
+  },
+  {
+    icon: Plug,
+    title: "Electrical & Plumbing Works",
+    description: "Professional installation, repair, and maintenance of electrical and plumbing systems ensuring safety, efficiency, and compliance with standards."
+  },
+  {
+    icon: Paintbrush,
+    title: "Painting Works",
+    description: "High-quality interior and exterior painting services delivering clean finishes, long-lasting protection, and enhanced visual appeal."
+  },
+  {
+    icon: Columns2,
+    title: "Modular Cabinetry",
+    description: "Custom-built modular cabinets and storage solutions designed for functionality, durability, and modern aesthetics."
   }
 ];
 
@@ -33,15 +53,15 @@ export const Services = () => {
             Our Construction Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From ground-breaking to ribbon-cutting, we provide comprehensive construction 
+            From ground-breaking to ribbon-cutting, we provide comprehensive construction
             solutions tailored to your specific needs and budget.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
-            <Card 
-              key={index} 
+            <Card
+              key={index}
               className="group hover:shadow-card transition-all duration-300 border-border/50 hover:border-primary/20"
             >
               <CardHeader className="text-center pb-4">

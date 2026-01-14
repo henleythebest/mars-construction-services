@@ -12,7 +12,7 @@ export const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <h1 className="text-2xl font-bold text-secondary">
-              Mars <span className="text-primary">Construction</span>
+              Ernel's <span className="text-primary">Construction Services</span>
             </h1>
           </div>
           

@@ -25,12 +25,13 @@ export const Hero = () => {
           Quality craftsmanship, on-time delivery, and exceptional customer service.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button 
+          <a href="#contact">
+            <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold shadow-construction"
           >
             Get Free Quote
-          </Button>
+          </Button></a>
           <Button 
             variant="outline" 
             size="lg"
