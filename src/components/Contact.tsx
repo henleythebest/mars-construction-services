@@ -67,7 +67,7 @@ export const Contact = () => {
                 </CardTitle>
               </CardHeader>
 
-              <CardContent className="space-y-6">
+              <CardContent className="space-y-6 pb-14">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <Input name="Firstname" placeholder="First Name" required />
                   <Input name="Lastname" placeholder="Last Name" required />
