@@ -23,7 +23,7 @@ export const Contact = () => {
     const formData = new FormData(e.currentTarget);
 
     try {
-      const response = await fetch("https://formsubmit.co/ajax/ernelsconstructions@icloud.com", {
+      const response = await fetch("https://formsubmit.co/ajax/hechivarre123@gmail.com", {
         method: "POST",
         headers: { Accept: "application/json" },
         body: formData,
@@ -69,17 +69,18 @@ export const Contact = () => {
 
               <CardContent className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <Input name="firstName" placeholder="First Name" required />
-                  <Input name="lastName" placeholder="Last Name" required />
+                  <Input name="Firstname" placeholder="First Name" required />
+                  <Input name="Lastname" placeholder="Last Name" required />
                 </div>
-                <Input name="email" type="email" placeholder="Email Address" required />
-                <Input name="phone" type="tel" placeholder="Phone Number" />
-                <Input name="projectType" placeholder="Project Type" />
-                <Textarea name="message" placeholder="Tell us about your project..." rows={4} required />
+                <Input name="Email" type="email" placeholder="Email Address" required />
+                <Input name="Phone" type="tel" placeholder="Phone Number" />
+                <Input name="Project" placeholder="Project Type" />
+                <Textarea name="Message" placeholder="Tell us about your project..." rows={4} required />
 
                 {/* Hidden fields */}
                 <input type="hidden" name="_subject" value="New Construction Quote Request" />
                 <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
                 <input type="text" name="_honey" style={{ display: "none" }} />
 
                 <Button
