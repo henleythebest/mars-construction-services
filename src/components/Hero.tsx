@@ -32,13 +32,13 @@ export const Hero = () => {
           >
             Get Free Quote
           </Button></a>
-          <Button 
+          {/* <Button 
             variant="outline" 
             size="lg"
             className="border-white text-secondary hover:bg-white/90 hover:text-secondary px-8 py-4 text-lg font-semibold"
           >
             View Our Work
-          </Button>
+          </Button> */}
         </div>
       </div>
       

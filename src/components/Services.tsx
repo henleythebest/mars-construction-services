@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Building, Home, Wrench, Truck, Ruler, Sofa, Layout, Plug, Paintbrush, Columns2 } from "lucide-react";
+import { Building, Wrench, Ruler, Sofa, Layout, Plug, Paintbrush, Columns2 } from "lucide-react";
 
 const services = [
   {

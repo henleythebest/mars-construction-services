@@ -22,9 +22,9 @@ export const Navigation = () => {
             <a href="#services" className="text-foreground hover:text-primary transition-colors">Services</a>
             <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+            {/* <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               Get Quote
-            </Button>
+            </Button> */}
           </div>
           
           {/* Mobile menu button */}

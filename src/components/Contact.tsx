@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import { toast, Toaster } from "sonner";
+import { toast } from "sonner";
 
 const contactInfo = [
   { icon: Phone, title: "Call Us", details: "+63 927 4830663", subtitle: "24/7 Emergency Service" },
@@ -23,7 +23,7 @@ export const Contact = () => {
     const formData = new FormData(e.currentTarget);
 
     try {
-      const response = await fetch("https://formsubmit.co/ajax/hechivarre123@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/ernelsconstructions@icloud.com", {
         method: "POST",
         headers: { Accept: "application/json" },
         body: formData,

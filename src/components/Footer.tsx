@@ -17,6 +17,7 @@ export const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a href="https://www.facebook.com/profile.php?id=61570823855652" target="_blank" className="hover:text-primary transition-colors"><Facebook className="w-5 h-5 text-white/60 hover:text-primary cursor-pointer transition-colors" /></a>
+              <MessageCircle className="w-5 h-5 text-white/60 hover:text-primary cursor-pointer transition-colors" />
               {/* <Twitter className="w-5 h-5 text-white/60 hover:text-primary cursor-pointer transition-colors" />
               <Instagram className="w-5 h-5 text-white/60 hover:text-primary cursor-pointer transition-colors" />
               <Linkedin className="w-5 h-5 text-white/60 hover:text-primary cursor-pointer transition-colors" /> */}
@@ -77,7 +78,7 @@ export const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Stay Updated</h4>
             <p className="text-white/80 mb-4">Vist our facebook page for construction tips and project updates.</p>
             <div className="space-y-3">
-              <a href="https://www.facebook.com/profile.php?id=61570823855652" target="_blank" className="hover:text-primary transition-colors">Ernel's Construction Services</a>
+              <a href="https://www.facebook.com/profile.php?id=61570823855652" target="_blank" className="hover:text-primary font-semibold transition-colors">Ernel's Construction Services</a>
             </div>
           </div>
         </div>
