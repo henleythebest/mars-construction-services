@@ -10,13 +10,13 @@ const projects = [
         title: "2 Storey Residential House",
         description: "Sample description.",
         images: [
-            "http://localhost:8080/portfolio/p7.png",
-            "http://localhost:8080/portfolio/p1.png",
-            "http://localhost:8080/portfolio/p2.png",
-            "http://localhost:8080/portfolio/p3.png",
-            "http://localhost:8080/portfolio/p4.png",
-            "http://localhost:8080/portfolio/p5.png",
-            "http://localhost:8080/portfolio/p6.png"
+            "https://ernels-construction-services.vercel.app/portfolio/p7.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p1.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p2.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p3.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p4.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p5.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p6.png"
         ]
     },
     {
@@ -24,13 +24,13 @@ const projects = [
         title: "Okinawa Heat",
         description: "Sample description.",
         images: [
-            "http://localhost:8080/portfolio/p14.png",
-            "http://localhost:8080/portfolio/p8.png",
-            "http://localhost:8080/portfolio/p9.png",
-            "http://localhost:8080/portfolio/p10.png",
-            "http://localhost:8080/portfolio/p11.png",
-            "http://localhost:8080/portfolio/p12.png",
-            "http://localhost:8080/portfolio/p13.png"
+            "https://ernels-construction-services.vercel.app/portfolio/p14.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p8.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p9.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p10.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p11.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p12.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p13.png"
         ]
     },
     {
@@ -38,13 +38,13 @@ const projects = [
         title: "Fried Chicken Master",
         description: "Sample description.",
         images: [
-            "http://localhost:8080/portfolio/p21.png",
-            "http://localhost:8080/portfolio/p16.png",
-            "http://localhost:8080/portfolio/p17.png",
-            "http://localhost:8080/portfolio/p18.png",
-            "http://localhost:8080/portfolio/p19.png",
-            "http://localhost:8080/portfolio/p20.png",
-            "http://localhost:8080/portfolio/p15.png"
+            "https://ernels-construction-services.vercel.app/portfolio/p21.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p16.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p17.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p18.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p19.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p20.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p15.png"
         ]
     },
     {
@@ -52,13 +52,13 @@ const projects = [
         title: "Cebu International Academy",
         description: "Sample description.",
         images: [
-            "http://localhost:8080/portfolio/p28.png",
-            "http://localhost:8080/portfolio/p23.png",
-            "http://localhost:8080/portfolio/p24.png",
-            "http://localhost:8080/portfolio/p25.png",
-            "http://localhost:8080/portfolio/p26.png",
-            "http://localhost:8080/portfolio/p27.png",
-            "http://localhost:8080/portfolio/p22.png"
+            "https://ernels-construction-services.vercel.app/portfolio/p28.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p23.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p24.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p25.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p26.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p27.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p22.png"
         ]
     },
     {
@@ -66,10 +66,10 @@ const projects = [
         title: "Tong Yang Restaurant",
         description: "Sample description.",
         images: [
-            "http://localhost:8080/portfolio/p32.png",
-            "http://localhost:8080/portfolio/p30.png",
-            "http://localhost:8080/portfolio/p31.png",
-            "http://localhost:8080/portfolio/p29.png"
+            "https://ernels-construction-services.vercel.app/portfolio/p32.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p30.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p31.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p29.png"
         ]
     },
     {
@@ -77,11 +77,11 @@ const projects = [
         title: "New York Fries and Dips (NYFD)",
         description: "Sample description.",
         images: [
-            "http://localhost:8080/portfolio/p37.png",
-            "http://localhost:8080/portfolio/p33.png",
-            "http://localhost:8080/portfolio/p34.png",
-            "http://localhost:8080/portfolio/p35.png",
-            "http://localhost:8080/portfolio/p36.png"
+            "https://ernels-construction-services.vercel.app/portfolio/p37.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p33.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p34.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p35.png",
+            "https://ernels-construction-services.vercel.app/portfolio/p36.png"
         ]
     }
 ];
