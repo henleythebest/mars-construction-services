@@ -7,59 +7,81 @@ import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 const projects = [
     {
         id: 1,
-        title: "Modern Office Complex",
-        description: "A state-of-the-art commercial building featuring sustainable design and smart technology integration.",
+        title: "2 Storey Residential House",
+        description: "Sample description.",
         images: [
-            "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&h=400&fit=crop"
+            "http://localhost:8080/portfolio/p7.png",
+            "http://localhost:8080/portfolio/p1.png",
+            "http://localhost:8080/portfolio/p2.png",
+            "http://localhost:8080/portfolio/p3.png",
+            "http://localhost:8080/portfolio/p4.png",
+            "http://localhost:8080/portfolio/p5.png",
+            "http://localhost:8080/portfolio/p6.png"
         ]
     },
     {
         id: 2,
-        title: "Luxury Residential Villa",
-        description: "Custom-built family home with premium finishes and panoramic views.",
+        title: "Okinawa Heat",
+        description: "Sample description.",
         images: [
-            "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&h=400&fit=crop"
+            "http://localhost:8080/portfolio/p14.png",
+            "http://localhost:8080/portfolio/p8.png",
+            "http://localhost:8080/portfolio/p9.png",
+            "http://localhost:8080/portfolio/p10.png",
+            "http://localhost:8080/portfolio/p11.png",
+            "http://localhost:8080/portfolio/p12.png",
+            "http://localhost:8080/portfolio/p13.png"
         ]
     },
     {
         id: 3,
-        title: "Industrial Warehouse",
-        description: "Large-scale storage facility with modern logistics infrastructure.",
+        title: "Fried Chicken Master",
+        description: "Sample description.",
         images: [
-            "https://images.unsplash.com/photo-1565610222536-ef125c59da2e?w=600&h=400&fit=crop"
+            "http://localhost:8080/portfolio/p21.png",
+            "http://localhost:8080/portfolio/p16.png",
+            "http://localhost:8080/portfolio/p17.png",
+            "http://localhost:8080/portfolio/p18.png",
+            "http://localhost:8080/portfolio/p19.png",
+            "http://localhost:8080/portfolio/p20.png",
+            "http://localhost:8080/portfolio/p15.png"
         ]
     },
     {
         id: 4,
-        title: "Shopping Mall Renovation",
-        description: "Complete interior redesign of a retail space with contemporary aesthetics.",
+        title: "Cebu International Academy",
+        description: "Sample description.",
         images: [
-            "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1567449303078-57ad995bd329?w=600&h=400&fit=crop"
+            "http://localhost:8080/portfolio/p28.png",
+            "http://localhost:8080/portfolio/p23.png",
+            "http://localhost:8080/portfolio/p24.png",
+            "http://localhost:8080/portfolio/p25.png",
+            "http://localhost:8080/portfolio/p26.png",
+            "http://localhost:8080/portfolio/p27.png",
+            "http://localhost:8080/portfolio/p22.png"
         ]
     },
     {
         id: 5,
-        title: "Hospital Wing Extension",
-        description: "Healthcare facility expansion with specialized medical infrastructure.",
+        title: "Tong Yang Restaurant",
+        description: "Sample description.",
         images: [
-            "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop"
+            "http://localhost:8080/portfolio/p32.png",
+            "http://localhost:8080/portfolio/p30.png",
+            "http://localhost:8080/portfolio/p31.png",
+            "http://localhost:8080/portfolio/p29.png"
         ]
     },
     {
         id: 6,
-        title: "Boutique Hotel",
-        description: "Elegant hospitality project blending modern comfort with classic architecture.",
+        title: "New York Fries and Dips (NYFD)",
+        description: "Sample description.",
         images: [
-            "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&h=400&fit=crop"
+            "http://localhost:8080/portfolio/p37.png",
+            "http://localhost:8080/portfolio/p33.png",
+            "http://localhost:8080/portfolio/p34.png",
+            "http://localhost:8080/portfolio/p35.png",
+            "http://localhost:8080/portfolio/p36.png"
         ]
     }
 ];
