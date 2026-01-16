@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin, MessageCircle, Code } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -65,7 +65,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span className="text-white/80">Tayud Consolacion<br />Cebu City, 6000</span>
+                <span className="text-white/80">Echivarre Street, Mantuyong<br />Mandaue City, 6014</span>
               </div>
             </div>
           </div>
@@ -95,11 +95,25 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-white/20 mt-12 pt-8 text-center">
-          <p className="text-white/60">
-            © 2024 Ernel's Construction Services. All rights reserved. | Licensed & Insured
+        <div className="border-t border-white/20 mt-12 pt-6 text-center space-y-3">
+          <p className="text-white/60 text-sm">
+            © 2025 Ernel's Construction Services. All rights reserved. | Licensed & Insured
           </p>
+
+          <div className="flex items-center justify-center gap-2 text-white/50 text-sm">
+            <Code className="w-4 h-4" />
+            <span>
+              Designed & Developed by{" "}
+              <a
+                href="https://your-site.com"
+                className="underline hover:text-white transition-colors text-primary"
+              >
+                Henley Echivarre
+              </a>
+            </span>
+          </div>
         </div>
+
       </div>
     </footer>
   );

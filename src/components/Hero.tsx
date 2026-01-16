@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-construction.jpg";
 
 export const Hero = () => {
@@ -32,13 +33,14 @@ export const Hero = () => {
           >
             Get Free Quote
           </Button></a>
-          {/* <Button 
+          <Button 
             variant="outline" 
             size="lg"
             className="border-white text-secondary hover:bg-white/90 hover:text-secondary px-8 py-4 text-lg font-semibold"
+            asChild
           >
-            View Our Work
-          </Button> */}
+            <Link to="/portfolio">View Our Work</Link>
+          </Button>
         </div>
       </div>
       

@@ -70,11 +70,11 @@ export const Navigation = () => {
               >
                 Contact
               </a>
-              <div className="px-3 py-2">
+              {/* <div className="px-3 py-2">
                 <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
                   Get Quote
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         )}

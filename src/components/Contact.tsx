@@ -9,8 +9,8 @@ import { toast } from "sonner";
 const contactInfo = [
   { icon: Phone, title: "Call Us", details: "+63 927 4830663", subtitle: "24/7 Emergency Service" },
   { icon: Mail, title: "Email Us", details: "ernelsconstructions@icloud.com", subtitle: "Quick Response Guaranteed" },
-  { icon: MapPin, title: "Visit Us", details: "Tayud Consolacion", subtitle: "Cebu City, 6000" },
-  { icon: Clock, title: "Business Hours", details: "Sat-Sun: 7AM-6PM", subtitle: "Online Everyday" },
+  { icon: MapPin, title: "Visit Us", details: "Echivarre Street, Mantuyong", subtitle: "Mandaue City, 6014" },
+  { icon: Clock, title: "Business Hours", details: "Mon-Sat: 7AM-6PM", subtitle: "Flexible scheduling available" },
 ];
 
 export const Contact = () => {
