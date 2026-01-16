@@ -105,7 +105,7 @@ export const Footer = () => {
             <span>
               Designed & Developed by{" "}
               <a
-                href="https://your-site.com"
+                href="https://www.linkedin.com/in/henley-echivarre-923148139/"
                 className="underline hover:text-white transition-colors text-primary"
               >
                 Henley Echivarre
