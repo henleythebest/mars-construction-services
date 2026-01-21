@@ -22,7 +22,7 @@ const projects = [
     {
         id: 2,
         title: "Boss Turon",
-        description: "Sample description.",
+        description: "Food stall",
         images: [
             "https://ernels-construction-services.vercel.app/portfolio/project2/1.jpeg",
         ]
