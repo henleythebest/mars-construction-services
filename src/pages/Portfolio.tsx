@@ -7,6 +7,63 @@ import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 const projects = [
     {
         id: 1,
+        title: "Capoy Residence",
+        description: "Sample description.",
+        images: [
+            "https://ernels-construction-services.vercel.app/portfolio/project1/1.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project1/2.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project1/3.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project1/4.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project1/5.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project1/6.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project1/7.jpeg",
+        ]
+    },
+    {
+        id: 2,
+        title: "Boss Turon",
+        description: "Sample description.",
+        images: [
+            "https://ernels-construction-services.vercel.app/portfolio/project2/1.jpeg",
+        ]
+    },
+    {
+        id: 3,
+        title: "Felicilda Residence",
+        description: "Deca Homes Cubacub Mandaue City",
+        images: [
+            "https://ernels-construction-services.vercel.app/portfolio/project3/1.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project3/3.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project3/4.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project3/5.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project3/6.jpeg",
+        ]
+    },
+    {
+        id: 4,
+        title: "Diaz Residence",
+        description: "Tingub Mandaue City.",
+        images: [
+            "https://ernels-construction-services.vercel.app/portfolio/project4/1.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project4/2.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project4/3.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project4/4.jpeg",
+        ]
+    },
+    {
+        id: 5,
+        title: "Tarona’s Rest House",
+        description: "Sonog Camotes Cebu",
+        images: [
+            "https://ernels-construction-services.vercel.app/portfolio/project5/1.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project5/3.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project5/5.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project5/9.jpeg",
+            "https://ernels-construction-services.vercel.app/portfolio/project5/12.jpeg",
+        ]
+    },
+    {
+        id: 6,
         title: "2 Storey Residential House",
         description: "Sample description.",
         images: [
@@ -20,7 +77,7 @@ const projects = [
         ]
     },
     {
-        id: 2,
+        id: 7,
         title: "Okinawa Heat",
         description: "Sample description.",
         images: [
@@ -34,7 +91,7 @@ const projects = [
         ]
     },
     {
-        id: 3,
+        id: 8,
         title: "Fried Chicken Master",
         description: "Sample description.",
         images: [
@@ -48,7 +105,7 @@ const projects = [
         ]
     },
     {
-        id: 4,
+        id: 9,
         title: "Cebu International Academy",
         description: "Sample description.",
         images: [
@@ -62,7 +119,7 @@ const projects = [
         ]
     },
     {
-        id: 5,
+        id: 10,
         title: "Tong Yang Restaurant",
         description: "Sample description.",
         images: [
@@ -73,7 +130,7 @@ const projects = [
         ]
     },
     {
-        id: 6,
+        id: 11,
         title: "New York Fries and Dips (NYFD)",
         description: "Sample description.",
         images: [
@@ -133,9 +190,9 @@ const Portfolio = () => {
                             <CardHeader>
                                 <CardTitle className="text-xl">{project.title}</CardTitle>
                             </CardHeader>
-                            <CardContent>
+                            {/* <CardContent>
                                 <CardDescription className="text-base">{project.description}</CardDescription>
-                            </CardContent>
+                            </CardContent> */}
                         </Card>
                     ))}
                 </div>
